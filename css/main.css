@@ -1,0 +1,17 @@
+.charts{
+    display: flex;
+    width: 100wv;
+
+}
+@media (max-width:768px){
+    .charts{
+        flex-direction: column;
+    }
+}
+.date-picker{
+    display: flex;
+    align-items: center;
+}
+.charts .chart{
+ width: 100%;
+}
